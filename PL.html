@@ -1,0 +1,4155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;700&display=swap" rel="stylesheet">
+  <!-- Font Awseome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./Css/PL.css">
+  <link rel="stylesheet" href="./Css/Normalize.css">
+  <link rel="stylesheet" href="./Css/all.min.css">
+  <title>Fixtures</title>
+  <link rel="icon" href="./pics/logo.png" type="image/x-icon">
+</head>
+<body>
+  <!-- Scroll to Top -->
+  <div class="sttp">
+    <a href="#content"><i class="fa-solid fa-angles-up"></i></a>
+  </div>
+  <!-- Scroll to Top -->
+  <!-- Scroller -->
+  <div class="scroller"></div>
+  <!-- Scroller -->
+  <!-- Loading -->
+  <div class="loading">
+    <div></div>
+  </div>
+  <!-- Loading -->
+  <!-- CONFIRM ALERT -->
+  <div class="confirm">
+    <div>
+      <p>ARE YOU SURE TO RESET EVERYTHING?</p>
+      <button class="yes">yes</button>
+      <button class="no">no</button>
+    </div>
+  </div>
+  <!-- CONFIRM ALERT -->
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="biglogo">
+        <a class="" href="/PL.html">
+          <img src="./pics/logo.png" alt="">
+        </a>
+      </div>
+      <ul>
+        <li><a href="#fixtures">Fixtures</a></li>
+        <li><a href="#standings">Standings</a></li>
+        <li><a href="#predictions">My Predictions</a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- Header -->
+  <!-- Content -->
+  <div class="content" id="content">
+    <div class="context">
+      <h3>Welcome To Fixtures !</h3>
+      <p>Put Your Own Score Predictions !</p>
+    </div>
+  </div>
+  <!-- Content -->
+  <!-- Main Page -->
+  <div class="main-page">
+    <!-- Fixtures -->
+    <div class="fixtures" id="fixtures">
+      <div class="container">
+        <h3 class="main-title">Fixtures</h3>
+        <div class="fix-table">
+          <div class="gameweek">
+            <button class="previous" id="previousF">
+              <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <div>
+              <h3 id="F">Fixture 1</h3>
+              <select name="" id="fixlist">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+              </select>
+            </div>
+            <button class="next" id="nextF">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+          <div class="matches">
+            <div class="match">
+              <div class="team" id="teamF">
+                <p>Burnley</p>
+                <img src="./pics/Burnley.png" alt="">
+              </div>
+              <div class="score">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+              </div>
+              <div class="team" id="teamF">
+                <img src="./pics/Man City.png" alt="">
+                <p>Man City</p>
+              </div>
+            </div>
+            <div class="match">
+              <div class="team"id="teamF">
+                <p>Arsenal</p>
+                <img src="./pics/Arsenal.png" alt="">
+              </div>
+              <div class="score">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+              </div>
+              <div class="team" id="teamF">
+                <img src="./pics/Nottingham Forest.png" alt="">
+                <p>Nottingham Forest</p>
+              </div>
+            </div>
+            <div class="match">
+              <div class="team" id="teamF">
+                <p>Bournemouth</p>
+                <img src="./pics/Bournemouth.png" alt="">
+              </div>
+              <div class="score">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+              </div>
+              <div class="team" id="teamF">
+                <img src="./pics/West Ham.png" alt="">
+                <p>West Ham</p>
+              </div>
+            </div>
+            <div class="match">
+              <div class="team" id="teamF">
+                <p>Brighton</p>
+                <img src="./pics/Brighton.png" alt="">
+              </div>
+              <div class="score">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+              </div>
+              <div class="team" id="teamF">
+                <img src="./pics/Luton.png" alt="">
+                <p>Luton</p>
+              </div>
+            </div>
+            <div class="match">
+              <div class="team" id="teamF">
+                <p>Everton</p>
+                <img src="./pics/Everton.png" alt="">
+              </div>
+              <div class="score">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+              </div>
+              <div class="team" id="teamF">
+                <img src="./pics/Fulham.png" alt="">
+                <p>Fulham</p>
+              </div>
+            </div>
+            <div class="match">
+              <div class="team" id="teamF">
+                <p>Sheffield United</p>
+                <img src="./pics/Sheffield United.png" alt="">
+              </div>
+              <div class="score">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+              </div>
+              <div class="team" id="teamF">
+                <img src="./pics/Crystal Palace.png" alt="">
+                <p> Crystal Palace</p>
+              </div>
+            </div>
+            <div class="match">
+              <div class="team" id="teamF">
+                <p>Newcastle</p>
+                <img src="./pics/Newcastle.png" alt="">
+              </div>
+              <div class="score">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+              </div>
+              <div class="team" id="teamF">
+                <img src="./pics/Aston Villa.png" alt="">
+                <p>Aston Villa</p>
+              </div>
+            </div>
+            <div class="match">
+              <div class="team" id="teamF">
+                <p>Brentford</p>
+                <img src="./pics/Brentford.png" alt="">
+              </div>
+              <div class="score">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+              </div>
+              <div class="team" id="teamF">
+                <img src="./pics/Spurs.png" alt="">
+                <p>Spurs</p>
+              </div>
+            </div>
+            <div class="match">
+              <div class="team" id="teamF">
+                <p>Chelsea</p>
+                <img src="./pics/Chelsea.png" alt="">
+              </div>
+              <div class="score">
+                <input type="text" class="num" id="numF" placeholder="-" value="">
+                <input type="text" class="num" id="numF" placeholder="-" value="">
+              </div>
+              <div class="team" id="teamF">
+                <img src="./pics/Liverpool.png" alt="">
+                <p>Liverpool</p>
+              </div>
+            </div>
+            <div class="match">
+              <div class="team" id="teamF">
+                <p>Man United</p>
+                <img src="./pics/Man United.png" alt="">
+              </div>
+              <div class="score">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+                <input type="text" class="num" id="numF" placeholder="-" value="" maxlength="2">
+              </div>
+              <div class="team" id="teamF">
+                <img src="./pics/Wolves.png" alt="">
+                <p>Wolves</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="resetButtons">
+          <button class="resetF">Reset Fixture</button>
+          <button class="resetAll">Reset All</button>
+        </div>
+      </div>
+    </div>
+    <!-- Fixtures -->
+    <!-- Standings -->
+    <div class="standings" id="standings">
+      <div class="container">
+        <div class="main-title">Standings</div>
+        <div class="stand-table">
+          <div class="tete">
+            <span>Club</span>
+            <div>
+              <span>MP</span>
+              <span>W</span>
+              <span>D</span>
+              <span>L</span>
+              <span>GF</span>
+              <span>GA</span>
+              <span>GD</span>
+              <span>Pts</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>1</span>
+              <img src="./pics/Brighton.png" alt="">
+              <p>Brighton</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>2</span>
+              <span>2</span>
+              <span>0</span>
+              <span>8</span>
+              <span>2</span>
+              <span>6</span>
+              <span>6</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>2</span>
+              <img src="./pics/Man City.png" alt="">
+              <p>Man City</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>2</span>
+              <span>0</span>
+              <span>0</span>
+              <span>4</span>
+              <span>0</span>
+              <span>4</span>
+              <span>6</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>3</span>
+              <img src="./pics/Brentford.png" alt="">
+              <p>Brentford</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>1</span>
+              <span>1</span>
+              <span>0</span>
+              <span>5</span>
+              <span>2</span>
+              <span>3</span>
+              <span>4</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>4</span>
+              <img src="./pics/Liverpool.png" alt="">
+              <p>Liverpool</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>1</span>
+              <span>1</span>
+              <span>0</span>
+              <span>4</span>
+              <span>2</span>
+              <span>2</span>
+              <span>4</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>5</span>
+              <img src="./pics/Spurs.png" alt="">
+              <p>Spurs</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>1</span>
+              <span>1</span>
+              <span>0</span>
+              <span>4</span>
+              <span>2</span>
+              <span>2</span>
+              <span>4</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>6</span>
+              <img src="./pics/West Ham.png" alt="">
+              <p>West Ham</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>1</span>
+              <span>1</span>
+              <span>0</span>
+              <span>4</span>
+              <span>2</span>
+              <span>2</span>
+              <span>4</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>7</span>
+              <img src="./pics/Newcastle.png" alt="">
+              <p>Newcastle</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>1</span>
+              <span>0</span>
+              <span>1</span>
+              <span>5</span>
+              <span>2</span>
+              <span>3</span>
+              <span>3</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>8</span>
+              <img src="./pics/Arsenal.png" alt="">
+              <p>Arsenal</p>
+            </div>
+            <div>
+              <span>1</span>
+              <span>1</span>
+              <span>0</span>
+              <span>0</span>
+              <span>2</span>
+              <span>1</span>
+              <span>1</span>
+              <span>3</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>9</span>
+              <img src="./pics/Crystal Palace.png" alt="">
+              <p>Crystal Palace</p>
+            </div>
+            <div>
+              <span>1</span>
+              <span>1</span>
+              <span>0</span>
+              <span>0</span>
+              <span>1</span>
+              <span>0</span>
+              <span>1</span>
+              <span>3</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>10</span>
+              <img src="./pics/Aston Villa.png" alt="">
+              <p>Aston Villa</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>1</span>
+              <span>0</span>
+              <span>1</span>
+              <span>5</span>
+              <span>5</span>
+              <span>0</span>
+              <span>3</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>11</span>
+              <img src="./pics/Nottingham Forest.png" alt="">
+              <p>Nottingham Forest</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>1</span>
+              <span>0</span>
+              <span>1</span>
+              <span>3</span>
+              <span>3</span>
+              <span>0</span>
+              <span>3</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>12</span>
+              <img src="./pics/Man United.png" alt="">
+              <p>Man United</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>1</span>
+              <span>0</span>
+              <span>1</span>
+              <span>1</span>
+              <span>2</span>
+              <span>-1</span>
+              <span>3</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>13</span>
+              <img src="./pics/Fulham.png" alt="">
+              <p>Fulham</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>1</span>
+              <span>0</span>
+              <span>1</span>
+              <span>1</span>
+              <span>3</span>
+              <span>-2</span>
+              <span>3</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>14</span>
+              <img src="./pics/Bournemouth.png" alt="">
+              <p>Bournemouth</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>0</span>
+              <span>1</span>
+              <span>1</span>
+              <span>2</span>
+              <span>4</span>
+              <span>-2</span>
+              <span>1</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>15</span>
+              <img src="./pics/Chelsea.png" alt="">
+              <p>Chelsea</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>0</span>
+              <span>1</span>
+              <span>1</span>
+              <span>2</span>
+              <span>4</span>
+              <span>-2</span>
+              <span>1</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>16</span>
+              <img src="./pics/Sheffield United.png" alt="">
+              <p>Sheffield United</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>0</span>
+              <span>0</span>
+              <span>2</span>
+              <span>1</span>
+              <span>3</span>
+              <span>-2</span>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>17</span>
+              <img src="./pics/Luton.png" alt="">
+              <p>Luton</p>
+            </div>
+            <div>
+              <span>1</span>
+              <span>0</span>
+              <span>0</span>
+              <span>1</span>
+              <span>1</span>
+              <span>4</span>
+              <span>-3</span>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>18</span>
+              <img src="./pics/Burnley.png" alt="">
+              <p>Burnley</p>
+            </div>
+            <div>
+              <span>1</span>
+              <span>0</span>
+              <span>0</span>
+              <span>1</span>
+              <span>0</span>
+              <span>3</span>
+              <span>-3</span>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>19</span>
+              <img src="./pics/Wolves.png" alt="">
+              <p>Wolves</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>0</span>
+              <span>0</span>
+              <span>2</span>
+              <span>1</span>
+              <span>5</span>
+              <span>-4</span>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="position">
+            <div>
+              <span>20</span>
+              <img src="./pics/Everton.png" alt="">
+              <p>Everton</p>
+            </div>
+            <div>
+              <span>2</span>
+              <span>0</span>
+              <span>0</span>
+              <span>2</span>
+              <span>0</span>
+              <span>5</span>
+              <span>-5</span>
+              <span>0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Standings -->
+  </div>
+  <!-- Main Page -->
+  <!-- Predictions -->
+  <div class="predictions" id="predictions">
+    <h3 class="main-title">Your Predictions</h3>
+    <div class="pre-table">
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+      <div class="round">
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Burnley.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Man City.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Arsenal.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Nottingham Forest.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Bournemouth.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/West Ham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brighton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Luton.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Everton.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Fulham.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Sheffield United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Crystal Palace.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Newcastle.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Aston Villa.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Brentford.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Spurs.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Chelsea.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Liverpool.png" alt="">
+          </div>
+        </div>
+        <div class="imoutofnames">
+          <div class="H">
+            <img src="./pics/Man United.png" alt="">
+          </div>
+          <div class="result">-</div>
+          <div class="A">
+            <img src="./pics/Wolves.png" alt="">
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="lg"><button class="lg-button">
+      <i class="fa-solid fa-angles-down fa-shake fa-2xl"></i>
+    </button></div>
+  </div>
+  <!-- Predictions -->
+  <!-- Footer -->
+  <footer>
+    <img src="./pics/logo.png" alt="">
+    <p>Made by Ishak</p>
+    <h5>© Premier League 2023</h5>
+  </footer>
+  <!-- Footer -->
+</body>
+</html>
+  <!-- JS -->
+  <script src="./js/PL.js"></script>
+  <script src="./js/PL2.js"></script>
