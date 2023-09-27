@@ -889,7 +889,7 @@ let fixture = 1;
 
 
 /********LOCAL STORAGE**********/
-//window.onload.. NOT window.onload()
+window.onload.. NOT window.onload()
 window.onload = function() {
   //loading
   setTimeout(()=> {load.style.display = "none";}, 500);
