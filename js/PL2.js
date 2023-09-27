@@ -32,12 +32,12 @@ let lg = document.querySelector(".lg-button");
 lg.onclick = () => {
   if (down === 0) {
     document.querySelector(".predictions").style.height = "fit-content";
-    lg.innerHTML = `<i class="fa-solid fa-angles-up fa-shake fa-2xl"></i>`;
+    lg.innerHTML = `<i class="fa-solid fa-angles-up fa-2xl"></i>`;
     down = 1;
   }
   else {
     document.querySelector(".predictions").style.height = "700px";
-    lg.innerHTML = `<i class="fa-solid fa-angles-down fa-shake fa-2xl"></i>`;
+    lg.innerHTML = `<i class="fa-solid fa-angles-down fa-2xl"></i>`;
     down = 0;
   }
 }
