@@ -889,12 +889,12 @@ let fixture = 1;
 
 
 /********LOCAL STORAGE**********/
-window.onload.. NOT window.onload()
+//window.onload.. NOT window.onload()
 window.onload = function() {
   //loading
   setTimeout(()=> {load.style.display = "none";}, 500);
   updatePrediction();
-  //window.localStorage.clear();
+  window.localStorage.clear();
   if (window.localStorage.getItem("BOSS2") && window.localStorage.getItem("club") && window.localStorage.getItem("standings") && window.localStorage.getItem("fixture") && window.localStorage.getItem("BOSS4") && window.localStorage.getItem("BOSS3")) {
     storageBOSS4Item = JSON.parse(window.localStorage.getItem("BOSS4"));
     storageBOSS3Item = JSON.parse(window.localStorage.getItem("BOSS3"));
