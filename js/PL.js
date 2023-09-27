@@ -1,3 +1,4 @@
+console.log("update");
 /********SELECTING**********/
 //Selecting Gameweek Buttons
 let btn1 = document.querySelector("#previousF");
