@@ -1367,7 +1367,7 @@ function updateStorage() {
 }
 //to force user to type digits only
 function digitsOnly(e) {
-  let x = e.which || e.keycode;
+  let x = e.which;
   if (x >= 48 && x <= 57) return true;
   else return false;
 } 
