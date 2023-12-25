@@ -859,6 +859,7 @@ let club = {
         club[prop][prop2] = 0;
       }
     }
+    this.Everton.pts = -10;
   }
 }
 //standings table (most important)
