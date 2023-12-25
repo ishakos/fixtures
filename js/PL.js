@@ -190,7 +190,7 @@ let BOSS = [
 ];
 let BOSS2 = [
   [
-    [0,2,1,4,0,9,5,2,1,1],
+    [0,2,1,4,0,0,5,2,1,1],
     [3,1,1,1,1,1,1,2,1,0]
   ],
   [
@@ -344,8 +344,8 @@ let BOSS2 = [
 ];
 let BOSS3 = [
   [
-    [0,0,0,0,0,1,0,0,0,0],
-    [0,0,0,0,0,1,0,0,0,0]
+    [0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0]
   ],
   [
     [0,0,0,0,0,0,0,0,0,0],
@@ -899,7 +899,8 @@ window.onload = function() {
     storageBOSS4Item = JSON.parse(window.localStorage.getItem("BOSS4"));
     storageBOSS3Item = JSON.parse(window.localStorage.getItem("BOSS3"));
     storageBOSS2Item = JSON.parse(window.localStorage.getItem("BOSS2"));
-    storageClubItem = JSON.parse(window.localStorage.getItem("club"));
+    //storageClubItem = JSON.parse(window.localStorage.getItem("club"));
+    storageClubItem = club;
     storageStandingsItem = JSON.parse(window.localStorage.getItem("standings"));
     storageFixtureItem = JSON.parse(window.localStorage.getItem("fixture"));
     let B = true;
