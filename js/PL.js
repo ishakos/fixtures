@@ -741,7 +741,7 @@ let club = {
     gf: 0, 
     ga: 0,
     gd: 0,
-    pts: 0
+    pts: -10
   },
   Fulham: {
     mp: 0,
